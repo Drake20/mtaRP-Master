@@ -1,0 +1,143 @@
+<meta>
+	<info author="Drake" version="0.1" description="Dies ist eine Roleplay Resource" type="gamemode"/>
+	<min_mta_version client="1.5.2" server="1.5.2"/>
+	<oop>true</oop>
+	
+	<!-- shared --->
+	
+	
+	<!-- res -->
+		<file src="res/images/favicon.png"/>
+	<!-- Server -->
+	
+	<script src="server/inventar/inventar.lua" />
+	
+	<script src="server/connection/database.lua"/>
+	<script src="server/connection/player_connect.lua"/>	
+
+	<script src="server/class/vehicleClass.lua"/>
+	<script src="server/class/windowCursor.lua"/>
+	
+	
+	<script src="server/system/environment.lua"/>
+	<script src="server/system/elementData.lua"/>
+	<script src="server/system/forbidden.lua"/>
+	
+	<script src="server/loginsystem/login.lua"/>
+	<script src="server/loginsystem/register.lua"/>
+	
+	<script src="server/blips/blips_server.lua"/>
+	
+	<script src="server/logging/stats_server.lua"/>
+	
+	<script src="server/intro/intro_server.lua"/>
+	
+	<script src="server/adminsystem/adminFunctions.lua" />
+	
+	<script src="server/objectEditor/objectEditor.lua"/>
+	
+	<script src="server/supportsystem/support_server.lua"/>
+	<script src="server/supportsystem/supportA_server.lua"/>
+	
+	<script src="server/rent/rent_server.lua"/>
+	<script src="server/vehiclesystem/vehicle_server.lua"/>
+	<script src="server/vehiclesystem/vehicle_repair.lua"/>
+	<script src="server/vehiclesystem/registrationOffice.lua"/>
+	<script src="server/vehiclesystem/vehicle_checkLicences.lua"/>
+	<script src="server/vehiclesystem/vehicle_school.lua"/>
+	<script src="server/vehiclesystem/vehicleHouse.lua"/>
+	<script src="server/vehiclesystem/vehicle_tune.lua"/>
+	<script src="server/vehiclesystem/vehInteract.lua"/>
+	
+	
+	<script src="server/insurance/insurance_server.lua"/>
+	
+	<script src="server/chat/playerchat_server.lua"/>
+	
+	<script src="server/factories/factory_pickups.lua"/>
+	
+	<script src="server/shop/npc_shop.lua"/>
+	<script src="server/shop/list_shop.lua"/>
+	<!-- client -->
+	
+	<script src="client/gui/loginsystem/gui_client.lua" type="client"/>
+	<file src="client/gui/loginsystem/test.html"/>
+	<file src="client/gui/loginsystem/register.html"/>
+	<file src="client/gui/loginsystem/class.css"/>
+	<file src="client/gui/loginsystem/favicon.ico"/>
+	<file src="client/gui/loginsystem/script.js"/>
+	
+	<script src="client/intro/intro.lua" type="client"/>
+	
+	<script src="client/supportsystem/createSupportWindow.lua" type="client" />
+	<script src="client/supportsystem/createAdminSupport.lua" type="client" />
+	<file src="client/supportsystem/stylesheet.css"/>
+	<file src="client/supportsystem/java.js"/>
+	<file src="client/supportsystem/support.png"/>
+	<file src="client/supportsystem/supportEnterpage.html"/>
+	<file src="client/supportsystem/supportWrite.html"/>
+	<file src="client/supportsystem/supportRead.html"/>
+	<file src="client/supportsystem/supportReadAdmin.html"/>
+	
+	
+	<script src="client/adminsystem/adminFunctions_client.lua" type="client" />
+	
+	<script src="client/cursor/cursor_client.lua" type="client" />
+	
+	<script src="client/class/chatMessage.lua" type="client" />
+	<script src="client/class/windowClass.lua" type="client" />
+	
+	<file src="client/intro/screen.html"/>
+	<file src="client/intro/look.html"/>
+	<file src="client/intro/p.css"/>
+	<file src="client/intro/ticketIntro.html"/>
+	
+	
+	<file src="client/inventar/inventar.html"/>
+	<file src="client/inventar/java.js"/>
+	<file src="client/inventar/stylesheet.css"/>
+	<script src="client/inventar/inventarOpen.lua" type="client"/>
+	
+	<script src="client/objectEditor/objectEditor.lua" type="client"/>
+	
+	<file src="client/vehiclesystem/choose.html"/>
+	<file src="client/vehiclesystem/office.html"/>
+	<file src="client/vehiclesystem/officeExit.html"/>
+	<file src="client/vehiclesystem/officeSavety.html"/>
+	<file src="client/vehiclesystem/RepairChoose.html"/>
+	<file src="client/vehiclesystem/repairFarb.html"/>
+	<file src="client/vehiclesystem/DrivingSchool_Choose.html"/>
+	<file src="client/vehiclesystem/infor.html"/>
+	<file src="client/vehiclesystem/Petrol_Stations.html"/>
+	<file src="client/vehiclesystem/petrol.js"/>
+	
+	<file src="client/vehiclesystem/vehHouse.js"/>
+	<file src="client/vehiclesystem/vehHouse.html"/>
+	<file src="client/vehiclesystem/vehInteract.html"/>
+	<file src="client/vehiclesystem/stylesheetInteract.css"/>
+	<file src="client/vehiclesystem/playerIndex.html"/>
+	
+	<file src="client/shop/shop.js"/>
+	<file src="client/shop/shop.html"/>
+	<script src="client/shop/shopEvents.lua" type="client"/>
+	
+	<file src="client/vehiclesystem/style.css"/>
+	
+	<file src="client/vehiclesystem/infor.html"/>
+	<file src="client/vehiclesystem/java.js"/>
+	
+	<script src="client/vehiclesystem/Vehicle_client.lua" type="client"/>
+	<script src="client/vehiclesystem/office_client.lua" type="client"/>
+	<script src="client/vehiclesystem/vehicle_repair.lua" type="client"/>
+	<script src="client/vehiclesystem/Vehicle_school.lua" type="client"/>
+	<script src="client/vehiclesystem/vehInteract.lua" type="client"/>
+	
+	<script src="client/vehiclesystem/vehicleHouse.lua" type="client"/>
+	
+	<script src="client/insurance/insurance_gui.lua" type="client"/>
+	
+	<script src="client/nametags/nametag_client.lua" type="client"/>
+	
+	<script src="client/factories/factory_text.lua" type="client" />
+	
+</meta>
