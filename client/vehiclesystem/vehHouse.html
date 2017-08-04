@@ -1,0 +1,24 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Home</title>
+		<link href="http://mta/general/client/gui/loginsystem/class.css"
+		type="text/css" rel="stylesheet" />
+		<script src="http://mta/general/client/vehiclesystem/vehHouse.js"></script>
+	</head>
+<body>
+	<hr class="linie">
+		<div class="loginfloor">
+		 <img src="http://mta/general/client/gui/loginsystem/favicon.ico" alt="Avatar" class="avatar">
+				 <h3>Fahrzeug:</h3>
+		<form>		
+				<select id="fuellSelect1" size="1" onchange="changeCar()">
+				</select>
+		</form>
+		<p id="petrolPrice">Preis: </p>
+				<button type="button" onClick="buyCarForServer()">Kaufen</button>
+				<button type="button" onclick="closeVehHouseSchWindow()">Schließen</button>
+		</div>
+	<hr class="liniebottom">
+</body>
+</html>

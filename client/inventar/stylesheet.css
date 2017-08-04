@@ -1,0 +1,133 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html, body {
+	/*height: 100%;*/
+   /* width: 100%;*/
+    margin: auto;
+	cursor:default;
+	}
+	
+	p {
+	font-family: arial;
+	padding: 3px;
+}
+
+h2 {
+	font-family: arial;
+}
+	
+	.linie { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border: none;
+	/*margin: 0 auto;*/
+	border-top: 1px solid green; 
+	color: #23D400; 
+	background-color: green; 
+	height: 4px; 
+	}
+	
+	.liniebottom { 
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border: none;
+		/*margin: 0 auto;*/
+		border-top: 1px solid green; 
+		color: #23D400; 
+		background-color: green; 
+		height: 4px; 
+	}	
+	
+	.loginfloor{
+		width: 400px;
+	}
+
+	.loginfloor2{
+		width: 400px;
+		margin-top: 25px;
+		position: absolute;
+	}
+	
+	
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    /*border: 2px solid #dddddd;
+	border-color: black;*/
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+    background-color: green;
+	color: white;
+}
+
+tr:hover{
+	background-color: darkgreen;
+	color: white;
+}
+
+
+#footer {
+	margin: 5px;
+	right: 0;
+	position: absolute;
+	
+}
+	.buttonZ{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 50px;
+		padding: 5px;
+	}
+	.buttonZ2{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 50px;
+		padding: 5px;
+		right: 0;
+		position: absolute;
+	}
+	.buttonK{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 100px;
+		padding: 5px;
+		
+	}
+	button:hover {
+		background-color: darkgreen;
+	}
+	
+	img.avatar
+	{
+		margin: 0 auto;
+		width: 100px;
+	}
+	
+	.buttonKategorie{
+		width: 350px;
+		margin: 10px;
+	}

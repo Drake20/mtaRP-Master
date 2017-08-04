@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Support</title>
+		<link href="http://mta/general/client/supportsystem/stylesheet.css"
+		type="text/css" rel="stylesheet" /><!--http://mta/general/client/supportsystem/-->
+		<script src="http://mta/general/client/supportsystem/java.js"></script>
+	</head>
+	<body>
+	<hr class="linie">
+		<div id="footer">
+			<button onclick="closeWindow()" class="buttonZ">X</button>
+		</div>
+		<div class="supportInput">
+		<span style="font-family: Arial">Filter: </span>
+		<span style="padding-left: 2.2em">
+		<select id="kategorieText">
+			<option value="hilfe">Keiner</option>
+			<option value="hilfe">Schnelle Hilfe</option>
+			<option value="question">Allgemeine Fragen</option>
+			<option value="bug">Spielfehler</option>
+			<option value="inita">Spielideen -Vorschläge</option>
+		</select>
+		</span>
+		<br></br>		
+		<span style="font-family: Arial">Betreff: </span>
+		<span style="padding-left: 1.4em">
+			<input type="text" id="adminTopic" size="30" readonly>
+		</span>
+		<br></br>
+		<br></br>
+		<p>Nachricht des Spielers:</p>
+		<textarea id="userQuestion" readonly></textarea><br>
+		<br></br>
+		<p>Tippe deine Antwort ein: </p>
+		<textarea id="adminAnswers"></textarea><br>
+		<button class="buttonK" onclick="refreshList()">Aktualisieren</button>
+		<button class="buttonK" onclick="ticketLeave()">Verlassen</button>
+		<span style="margin-left: 45px">
+			<button class="buttonA" onclick="sendTicketBack()">Absenden & Schließen</button>
+		</span>
+		</div>
+		<div class="supportFloorA">
+			<div class="supportFloorABereich">
+			<table id="supportAdminTable">
+					<th>ID</th>
+					<th>Betreff</th>
+					<th>Author</th>
+					<th>Bearbeiter</th>
+					<th>Status</th>
+				<tbody>
+				</tbody>
+			</table>
+			</div>
+		</div>
+	<hr class="liniebottom">
+	</body>
+
+</html>

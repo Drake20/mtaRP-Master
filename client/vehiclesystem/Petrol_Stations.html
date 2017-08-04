@@ -1,0 +1,25 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Home</title>
+		<link href="http://mta/general/client/gui/loginsystem/class.css"
+		type="text/css" rel="stylesheet" />
+		<script src="http://mta/general/client/vehiclesystem/petrol.js"></script>
+		<!--http://mta/general/client/gui/loginsystem/-->
+	</head>
+<body>
+	<hr class="linie">
+		<div class="loginfloor">
+		 <img src="http://mta/general/client/gui/loginsystem/favicon.ico" alt="Avatar" class="avatar">
+				 <h3>Fahrzeug:</h3>
+		<form>		
+				<select id="fuellSelect" size="1">
+				</select>
+		</form>
+		<p id="petrolPrice">Preis pro l: </p>
+				<button type="button" onClick="sendPetrolToMTA()">Tanken</button>
+				<button type="button" onclick="closeWindow()">Schließen</button>
+		</div>
+	<hr class="liniebottom">
+</body>
+</html>

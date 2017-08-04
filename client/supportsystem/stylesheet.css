@@ -1,0 +1,218 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html, body {
+	/*height: 100%;*/
+   /* width: 100%;*/
+    margin: auto;
+	cursor:default;
+	overflow: hidden;
+	}
+	
+	p {
+	font-family: arial;
+	padding: 3px;
+}
+
+h2 {
+	font-family: arial;
+}
+	
+	.linie { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border: none;
+	/*margin: 0 auto;*/
+	border-top: 1px solid green; 
+	color: #23D400; 
+	background-color: green; 
+	height: 4px; 
+	}
+	
+	.liniebottom { 
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border: none;
+		/*margin: 0 auto;*/
+		border-top: 1px solid green; 
+		color: #23D400; 
+		background-color: green; 
+		height: 4px; 
+	}	
+	
+	.loginfloor{
+		margin-top: 10px;
+		width: 310px;
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+	.chooseBody{
+		width: 200px;
+		padding-top: 10px;
+		margin: 0 auto;
+	}
+
+	.loginfloor2{
+		width: 300px;
+		height:97%;
+	}
+.supportFloor{
+	margin-left: 310px;
+	margin-top: 20px;
+	padding: 10px;
+	position: absolute;
+}
+
+.supportInput{
+	margin-left: 410px;
+	margin-top: 20px;
+	padding: 10px;
+	position: absolute;
+}
+
+
+.supportFloorA{
+		margin-top: 10px;
+		width: 410px;
+		overflow-y: auto;
+	}
+
+.supportFloorABereich{
+	width: 400px;
+	height:97%;
+	overflow-x: auto;
+}
+
+.supportFloorWrite{
+	margin-top: 20px;
+	padding: 10px;
+	position: absolute;
+}
+
+	.buttonChoosing {
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 10px;
+		width: 150px;
+		padding: 10px;
+		
+	}
+	
+table {
+    margin-top: 10px;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    /*border: 2px solid #dddddd;
+	border-color: black;*/
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgreen;
+/*	color: white;*/
+}
+
+tr:hover{
+	background-color: darkgreen;
+	color: white;
+}
+
+
+#footer {
+	margin: 5px;
+	right: 0;
+	position: absolute;
+	
+}
+	.buttonZ{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 50px;
+		padding: 5px;
+	}
+	.buttonZ2{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 50px;
+		padding: 5px;
+		right: 0;
+		position: absolute;
+	}
+	.buttonK{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 100px;
+		padding: 5px;
+		
+	}
+	.buttonA{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 150px;
+		padding: 5px;
+		
+	}
+	button:hover {
+		background-color: darkgreen;
+	}
+	
+	img.avatar
+	{
+		width: 128px;
+		height: 128px;
+		margin-left: 20px;
+	}
+	
+	.buttonKategorie{
+		width: 350px;
+		margin: 10px;
+	}
+	
+	input[type="text"], input[type="password"] , input[type="email"], input[type="number"]
+	{
+		display: inline-block;
+		margin-top: 5px;
+		padding: 10px;
+		font-family: arial, sans-serif;
+		width: 325px;
+		
+	}
+	textarea {
+		font-family: arial, sans-serif;
+	}
+	select {
+	  width: 325px;
+	  padding: 9px 6px 10px 5px;
+	}
+	
+textarea {
+		display: inline-block;
+		margin-top: 5px;
+		padding: 10px;
+		width: 400px;
+		height: 150px;
+}

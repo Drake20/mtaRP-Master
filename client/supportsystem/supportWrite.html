@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Support</title>
+		<link href="http://mta/general/client/supportsystem/stylesheet.css"
+		type="text/css" rel="stylesheet" />
+		<script src="http://mta/general/client/supportsystem/java.js"></script>
+	</head>
+	<body>
+	<hr class="linie">
+		<div id="footer">
+			<button onclick="closeWindow()" class="buttonZ">X</button>
+		</div>
+		<div class="supportFloorWrite">
+			<span style="font-family: Arial">Kategorie: </span>
+			<select id="kategorieText">
+				  <option value="hilfe">Schnelle Hilfe</option>
+				  <option value="question">Allgemeine Fragen</option>
+				  <option value="bug">Spielfehler</option>
+				  <option value="inita">Spielideen -Vorschläge</option>
+			</select>
+			<br></br>
+			<span style="font-family: Arial">Betreff:</span>
+			<span style="padding-left: 1.4em">
+			<input type="text" id="topic" size="30" required>
+			</span>
+			<br></br>
+			<br></br>
+			<p>Deine Nachricht: </p>
+			<textarea id="nachricht" required></textarea><br>
+			<span style="margin-left: 300px">
+				<button class="buttonK" onclick="writeTextForAdmins()">Absenden</button>
+			</span>
+		</div>
+
+
+	<hr class="liniebottom">
+	</body>
+
+</html>

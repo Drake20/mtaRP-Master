@@ -1,0 +1,38 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Home</title>
+		<link href="http://mta/general/client/gui/loginsystem/class.css"
+		type="text/css" rel="stylesheet" />
+		<script src="http://mta/general/client/gui/loginsystem/script.js"></script>
+		<!--http://mta/general/client/gui/loginsystem/-->
+	</head>
+<body>
+	<hr class="linie">
+		<div class="loginfloor">
+		 <img src="http://mta/general/client/gui/loginsystem/favicon.ico" alt="Avatar" class="avatar">
+			<form onsubmit="return SchoolInformation()">
+				<button type="submit">Klasseninformation</button>
+			</form>			
+			<form method="POST" name="1" onsubmit="return School1()">
+				<button type="submit">Klasse A</button>
+			</form>
+			<form method="POST" name="2" onsubmit="return School2()">
+				<button type="submit">Klasse B</button>
+			</form>
+			<form method="POST" name="3" onsubmit="return School3()">
+				<button type="submit">Klasse C</button>
+			</form>
+			<form method="POST" name="4" onsubmit="return School4()">
+				<button type="submit">Klasse D</button>
+			</form>
+			<form method="POST" name="4" onsubmit="return School5()">
+				<button type="submit">Klasse T</button>
+			</form>
+			<form method="POST" name="5" onsubmit="return CloseSchoolWindow()">
+				<button type="submit">Schließen</button>
+			</form>
+		</div>
+	<hr class="liniebottom">
+</body>
+</html>

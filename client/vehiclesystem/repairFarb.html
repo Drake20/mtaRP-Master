@@ -1,0 +1,48 @@
+﻿<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="http://mta/general/client/gui/loginsystem/class.css"
+		type="text/css" rel="stylesheet" />
+		<script src="http://mta/general/client/gui/loginsystem/script.js"></script>
+	</head>
+<body>
+	<hr class="linie">
+		<div class="loginfloor">
+		 <img src="http://mta/general/client/gui/loginsystem/favicon.ico" alt="Avatar" class="avatar">
+			<!--Farbcode:
+			<div id="farbe">
+			
+			</div>
+			<form oninput="numerisch.value=auswertung.value">
+				<input type="range" name="auswertung" min="0" max="255" value="5">
+				<output name="numerisch"></output>
+			</form>
+			<form oninput="numerisch.value=auswertung1.value">
+				<input type="range" name="auswertung1" min="0" max="255" value="5">
+				<output name="numerisch"></output>
+			</form>
+			<form oninput="numerisch.value=auswertung2.value">
+				<input type="range" name="auswertung2" min="0" max="255" value="5">
+				<output name="numerisch"></output>
+			</form>-->
+			<form name="Lack1Form" oninput="return VehicleLack1Web()">
+				<input type="range" name="farb1" min="0" max="255" value="0">
+				<input type="range" name="farb2" min="0" max="255" value="0">
+				<input type="range" name="farb3" min="0" max="255" value="0">
+			
+			<div id="farb">
+			Farbe 2:
+			</div>
+			
+				<input type="range" name="farb4" min="0" max="255" value="0">
+				<input type="range" name="farb5" min="0" max="255" value="0">
+				<input type="range" name="farb6" min="0" max="255" value="0">
+			</form>
+			<form method="POST" name="close3" onsubmit="return goToHomeMenue()">
+				<button type="submit">Zurück</button>
+			</form>
+			<button onclick="vehiclePaintBuy()">Kaufen</button>
+		</div>
+	<hr class="liniebottom">
+</body>
+</html>

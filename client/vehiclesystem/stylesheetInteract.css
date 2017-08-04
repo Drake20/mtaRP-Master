@@ -1,0 +1,80 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	html, body {
+    margin: auto;
+	cursor:default;
+	}
+	
+	p {
+	font-family: arial;
+	padding: 3px;
+}
+	
+.linie { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	border: none;
+	border-top: 1px solid green; 
+	color: #23D400; 
+	background-color: green; 
+	height: 4px; 
+}
+	
+	.liniebottom { 
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		border: none;
+		border-top: 1px solid green; 
+		color: #23D400; 
+		background-color: green; 
+		height: 4px; 
+	}	
+	
+	.loginfloor{
+		width: 400px;
+	}
+
+
+#footer {
+	margin: 5px;
+	right: 0;
+	position: absolute;
+	
+}
+	.buttonZ{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 1px;
+		width: 50px;
+		padding: 5px;
+	}
+	.buttonK{
+		color: white;
+		background-color: green;
+		border: none;
+		margin-top: 5px;
+		width: 100px;
+		padding: 5px;
+		
+	}
+	button:hover {
+		background-color: darkgreen;
+	}
+	
+.buttonKategorie{
+	width: 210px;
+	margin: 10px;
+}
+
+select {
+	  width:100%;
+	  padding: 9px 6px 10px 5px;
+	}
